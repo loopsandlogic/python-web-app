@@ -19,14 +19,14 @@ docker build -t my-flask-app .
 5. Create and start running instance of docker image  
 docker run -d -p 8080:5000 --name flask-server my-flask-app  
   
-6. Open below webpage and you can see the content  
+6. Open below webpage and you can see the content    
 http://10.0.0.133:8080/
   
-7. Stop the instance
+7. Stop the instance  
 docker stop flask-server  
 
-8. Remove the instance
+8. Remove the instance  
 docker rm flask-server  
 
-9. Stop Colima to free memory
+9. Stop Colima to free memory  
 colima stop
